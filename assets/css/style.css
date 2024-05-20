@@ -1,3 +1,5 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Poppins:wght@600&family=Raleway:wght@800&display=swap');
 /* Remove all css by the browser */
 
 * {
@@ -13,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
+    font-family: 'lato', sans-serif;
     /* generic project styles */
     color: #3a3a3a;
 }
