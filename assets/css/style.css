@@ -212,6 +212,15 @@ hr {
     color: #3a3a3a;
 }
 
+/* media query for landscape phons and larger screens  */
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* media query for tablets and larger screens  */
 
 @media screen and (min-width: 768px) {
@@ -268,6 +277,13 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* gallery  */
+    #photos {
+        column-count: 3;
+        
+    }
+
 }
     
 
@@ -303,4 +319,9 @@ hr {
         align-self: flex-end;
     }
 
+    /* gallery  */
+    #photos {
+        column-count: 4;
+        
+    }
 }
